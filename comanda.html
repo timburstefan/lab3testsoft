@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  </head>
+  <body>
+
+  <div class="header">
+    <h2 class="logo">Comanda Mancare Online</h2>
+
+
+    <ul class="menu">
+      <a href="home.html">Acasa</a>
+      <a href="comanda.html">Comanda acum</a>
+      <a href="despre.html">Despre noi</a>
+    </ul>
+  </div>
+
+
+
+  <form action="#0">
+		<div>
+
+    	<input type="text" name="foodtype" id="foodtype" placeholder=" " required>
+    <label for="foodtype">Numele Mancarii</label>
+		</div>
+		<div>
+
+      <input type="text" name="foodquantity" id="foodquantity" placeholder=" " required>
+		<label for="foodquantity">Cantiatatea</label>
+		</div>
+		<div>
+      
+		<input type="text" name="firstname" id="firstname" placeholder=" " required>
+		<label for="firstname">Numele</label>
+		</div>
+		<div>
+		
+		<input type="text" name="lastname" id="lastname" placeholder=" " required>
+		<label for="lastname">Prenunmele</label>
+		</div>
+		<div>
+		
+		<input type="tel" name="tel" id="tel" placeholder=" "
+		pattern="^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$" required>
+		<label for="tel">Nr de telefon</label>
+		<div class="requirements"> Must be a valid Phone Number!</div>
+		</div>
+		<div>
+		
+		<input type="text" name="adress" id="email" placeholder=" " required>
+		<label for="adress">Adresa</label>
+		<div class="requirements"> Must be a valid email addres!</div>
+		</div>
+		
+		<input type="submit" value="Comanda acum"/>
+	</form>
+
+    
+    
+  </body>
+</html>
